@@ -3,16 +3,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "FormulaLayout",
+    name: "ExprKit",
     platforms: [
             .iOS(.v9),
             .macOS(.v10_11)
     ],
     products: [
-        .library(name: "FormulaLayout", targets: ["FormulaLayout"]),
+        .library(name: "ExprKit", targets: ["ExprKit"]),
     ],
     targets: [
-        .target(name: "FormulaLayout", path: "Sources"),
-        .testTarget(name: "FormulaLayoutTests",dependencies: ["FormulaLayout"],path: "Tests"),
+        .target(name: "ExprKit", path: "Sources"),
+        .testTarget(name: "ExprKitTests",dependencies: ["ExprKit"],path: "Tests"),
     ]
 )

@@ -1,7 +1,7 @@
 [🇨🇳 中文](README.zh-CN.md) | [🇺🇸 English](README.md)
 
 
-### ***FormulaLayout*** Provides mathematical-style expressions to intuitively describe page layouts, based on operator-based rewriting
+### ***ExprKit*** Provides mathematical-style expressions to intuitively describe page layouts, based on operator-based rewriting
 
 In short, use the following DSL:
 ````swift
@@ -113,9 +113,9 @@ myView.updateLayout("identifier"){
 
 ### Swift Package Manager:
 ````
-package(url: "https://github.com/WMMJC/FormulaLayout.git", .from("1.0.0"))
+package(url: "https://github.com/WMMJC/ExprKit.git", .from("1.0.0"))
 ````
 
 
 # License
-**FormulaLayout** is available under the MIT license. See the LICENSE file for more info.
+**ExprKit** is available under the MIT license. See the LICENSE file for more info.

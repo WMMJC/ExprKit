@@ -1,5 +1,5 @@
 import XCTest
-@testable import FormulaLayout
+@testable import ExprKit
 
 #if canImport(UIKit)
 import UIKit
@@ -9,7 +9,7 @@ import AppKit
 typealias View = NSView
 #endif
 
-class FormulaLayoutTests: XCTestCase {
+class ExprKitTests: XCTestCase {
         
     override func setUp() {
         super.setUp()

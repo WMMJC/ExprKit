@@ -1,7 +1,7 @@
 [🇨🇳 中文](README.zh-CN.md) | [🇺🇸 English](README.md) 
 
 
-### ***FormulaLayout*** 提供了数学风格的表达式，以便直观的描述页面布局，基于操作符的重写
+### ***ExprKit*** 提供了数学风格的表达式，以便直观的描述页面布局，基于操作符的重写
 
 简而言之，使用如下DSL:
 ````swift
@@ -111,9 +111,9 @@ myView.updateLayout("identifier"){
 
 ### Swift Package Manager:
 ````
-package(url: "https://github.com/WMMJC/FormulaLayout.git", .from("1.0.0"))
+package(url: "https://github.com/WMMJC/ExprKit.git", .from("1.0.0"))
 ````
 
 
 # 许可证
-**FormulaLayout** 采用 MIT 许可，更多信息，请参阅 LICENSE 文件
+**ExprKit** 采用 MIT 许可，更多信息，请参阅 LICENSE 文件
